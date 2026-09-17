@@ -1,0 +1,20 @@
+import { UserSession } from '../types';
+
+export const APP_IMAGES = {
+  logoNTPB: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCz1ZpQG0CaF5Gjvi0jF8v0kpvh6qQpBbbMLNX3mkdyy7mgtaqEjFdonDxr1nZq5ZKIPUkFs7HXRbOFsFvois-EOUvoPR0z4eHdRptUBMJFI5ZqIwGLWgaKrW0-MTIYkZ1wLdqG_bpXp21AEEs02PpPFveRT2VeubEYs5VzC5CdhjyVJ5uCHNEVzgD_vIwNP-b_mRaO-vda_uazaYk7eA1mUeIqqPuLA_WcbeyOf6FiyiWGOXfPcHrGM8WIHKF-KLnGug',
+  logoDocument: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDlZex6VC4wgz4kZB7YcBT7yhAdsq7oRvv6w-JQTEJIg_3cwtUycxak8GldwsuoP8_h6whCq_VheH7fPd9GeCeJrkGZv92STV8HoKVP-eMXthObPK4JbTgu2XPSeaupRgpMh2cREGDaqpvE17MltKK2G6AqH56ZQLBOQ9FwzDr3VepqCQvAZz2iAAXRkkwPglzRo1YecQm_1oir7TuZ7wOyBe0FbdcZReQeDgrhKg8__hTJDcpOzWgOdkyXk4PEu07UlQ',
+  banner2026: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD2yapJUHdtXKXUXJqxYFUxspnilstofXgY7eGM4eKUlRe2vCqthacIDtBsxl9zJeEoe1ogqyVA0FiaSKaTllyKks1BDk_num-OXinaffYyQxLwsqnM-7EbfI4fGgWtaFfPciPDoogaxCDFi5hNq3sLLUR-HWIAeEtxytyz7d0eiixKtU1SvRnaj8tDh4b9RLEoIV6jIRRbswfAfHNSMGntbKcyfljYKubpZJ1Ts6Ptn58oSXPP0oS9',
+  foyerCommunautaire: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBqyEA1KSs9hZMe4LYc9ec5vF64qA9farH33aNPe2TkIws8ncyjsC28G0r62uGZcqbHhxHfUSrjz4i2gM-TT4AtmEiQBTIuzO4vRITcn8uo74hQ8OhlGBw96pkv_GUPPDafh1L-JBdK1Mr41fzfoUD53HQ0nxaDbStImna6rgMIEpWSnV_FHSElku-mcIU81pGDruMDbUCGmxpO0Yvhpc1mWkRxz4yZ5QpIGL-KF8RBJYRgTPe1NTFY',
+  colisConditionnes: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDnnPUcSaFOrqDUV9loDOPBc2B_kA7LKMK6Qc3bPoquvTIQrI20Us2rvap0mnTaba8_X69KDg68RYufOrzbPuBzF9HTy-91Y6fs28qhyZRjUeRCq2tPoFniMqMv0heOcEUwhmr8hVbODFSmPMHhskBm-DtxiEuLjRq8w8afBVOccGioSHUJcBE2XJzhUOuDO64qWtjUye2xNnzCcCnqKCrEq__4fBXmM242r9Rv7I4DE_kZ73xnA9wv',
+  userAvatar: 'https://lh3.googleusercontent.com/aida/AEtjO1WuKSAHZdYjlDVHM-xQr8ze4Y-Qz_-Wi0MWsU4kFwB58yySKtJCsb61Y4RLInr9oZQVhsgFs123-SIGGnJF-Tlg1k6dAgmIOKhiMtGaoExwoydnvlv_koiVJJ7DPRI0pWS3Uv6IMjmFzv1vWH94ZGIOs0V6DOX3SlPfnKJ7x1hAObvvmFQAd--iyomABgT_Z-4kIqex_ubCRS_OE7dyDjDobhO_8YHOQ8amTFECf1fs515L2drRJPUvKM8_6bdWQTc68Bxvo-yS',
+};
+
+export const INITIAL_USER: UserSession = {
+  isLoggedIn: false,
+  phone: '',
+  name: 'Mme Talla Florence',
+  role: 'Gestionnaire Principale NTPB',
+  avatarUrl: APP_IMAGES.userAvatar,
+};
+
+export const DEFAULT_USER = INITIAL_USER;

@@ -1,0 +1,6 @@
+{
+  "name": "Noël pour Tous à Batcha",
+  "description": "Application officielle de gestion des campagnes de bienfaisance de Noël à Batcha, suivi de trésorerie, promesses de dons, KPIs et rapports officiels de clôture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
